@@ -1,0 +1,8 @@
+services:
+    xoeoro.bytehand:
+        class: ByteHandApi
+        arguments:
+          - id: '%xoeoro.bytehand.id%'
+            key: '%xoeoro.bytehand.key%'
+            from: '%xoeoro.bytehand.from%'
+        scope: request
