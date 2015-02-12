@@ -19,8 +19,8 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->scalarNode('id')->defaultValue(null)->end()
-                ->scalarNode('key')->defaultValue(null)->end()
+                ->scalarNode('id')->isRequired()->end()
+                ->scalarNode('key')->isRequired()->end()
                 ->scalarNode('from')->defaultValue('SMS-INFO')->end()
             ->end()
         ;

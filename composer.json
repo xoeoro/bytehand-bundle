@@ -4,7 +4,7 @@
     "description": "Sending sms via ByteHand",
     "keywords": ["php", "sms", "bytehand", "symfony", "symfony bundle", "bundle", "symfony-2"],
     "homepage": "https://github.com/xoeoro/bytehand-bundle",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
